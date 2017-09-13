@@ -4,6 +4,9 @@ Android BluetoothLeGatt Sample
 
 This sample demonstrates how to use the Bluetooth LE Generic Attribute Profile (GATT)
 to transmit arbitrary data between devices.
+1. Must turn on location services and enable permission for app in settings 
+2. Need to run this on PI #cat /data/misc/bluedroid/bt_config.conf address 22:22:bf:99:f2:e1 
+Device address changes after connect  4E:08:76:0A:03:18
 
 Introduction
 ------------
@@ -30,7 +33,7 @@ Pre-requisites
 Screenshots
 -------------
 
-<img src="screenshots/1-main.png" height="400" alt="Screenshot"/> <img src="screenshots/2-detail.png" height="400" alt="Screenshot"/> 
+<img src="screenshots/1-main.png" height="400" alt="Screenshot"/> <img src="screenshots/2-detail.png" height="400" alt="Screenshot"/>
 
 Getting Started
 ---------------

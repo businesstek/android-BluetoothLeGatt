@@ -30,6 +30,16 @@ public class SampleGattAttributes {
         // Sample Services.
         attributes.put("0000180d-0000-1000-8000-00805f9b34fb", "Heart Rate Service");
         attributes.put("0000180a-0000-1000-8000-00805f9b34fb", "Device Information Service");
+        attributes.put("00001805-0000-1000-8000-00805f9b34fb", "Time Service");
+        attributes.put("00002a05-0000-1000-8000-00805f9b34fb", "BT Gatt Char");
+        attributes.put("00001801-0000-1000-8000-00805f9b34fb", "BlueTooth Gatt Service");
+        attributes.put("00001800-0000-1000-8000-00805f9b34fb", "BT Gatt Device Info");
+        attributes.put("00002a00-0000-1000-8000-00805f9b34fb", "Device Name");
+        attributes.put("00002a01-0000-1000-8000-00805f9b34fb", "BT2 Char 2");
+        attributes.put("00002aa6-0000-1000-8000-00805f9b34fb", "BT2 Char 3");
+        attributes.put("00002a2b-0000-1000-8000-00805f9b34fb", "Current Time");
+        attributes.put("00002a0f-0000-1000-8000-00805f9b34fb", "Local Time Info");
+        attributes.put("00002902-0000-1000-8000-00805f9b34fb", "RPI3 Client Config");
         // Sample Characteristics.
         attributes.put(HEART_RATE_MEASUREMENT, "Heart Rate Measurement");
         attributes.put("00002a29-0000-1000-8000-00805f9b34fb", "Manufacturer Name String");
